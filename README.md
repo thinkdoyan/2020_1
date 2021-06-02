@@ -44,6 +44,7 @@ Last tested with the following plugin versions.
 - [Twenty Twenty - WordPress Theme](https://de.wordpress.org/themes/twentytwenty/)
 
 ## Acknowledgements
+@Henrikwirth for creating this template and making it available on Github 
 
 - [NeverNull GmbH](https://nevernull.io) - The team I'm working with. Checkout what we are building here: [mobileui.dev](https://mobileui.dev)
 - [@TylerBarnes](https://github.com/TylerBarnes) - Head developer of gatsby-source-wordpress@v4
