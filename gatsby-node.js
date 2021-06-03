@@ -29,41 +29,32 @@ exports.createPages = async (props) => {
 
   
   
- import React from "react"
+import React from "react"
 import { graphql } from "gatsby"
 
 const ComponentName = ({ data }) => <pre>{JSON.stringify(data, null, 4)}</pre>
 
 export const query = graphql`
   {
-    pages {
-      edges {
-        node {
-          isFrontPage
-          isPostsPage
-          isPrivacyPage
-          isRestricted
-        }
-      }
-    }
-    menu(id: "") {
+    menu(id: "1,2,3") {
       name
     }
     menuItem(id: "") {
       label
+      locations
     }
-    writingSettings {
-      defaultCategory
-      defaultPostFormat
-      useSmilies
-    }
-    post(id: "1") {
+    page(id: "1, 2, 3, 4, 5, 6") {
       id
     }
+    postBy(postId: 1) {
+      id
+    }
+    theme(id: "")
   }
 `
 
 export default ComponentName
+
  
   
   
